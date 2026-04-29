@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Verificación de Certificado — Eki Educación con Equidad</title>
+  <title>Verificación de Certificado — eki Educación con Equidad</title>
 
   <!-- Google Fonts: Playfair Display + DM Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,21 +15,21 @@
        DESIGN TOKENS
     ========================================= */
     :root {
-      --purple-deep:    #3A005E;
-      --purple-main:    #4A007A;
-      --purple-mid:     #5C0096;
-      --purple-light:   #7B2DB2;
-      --purple-tint:    #F3EAFC;
-      --green-lime:     #78C822;
-      --green-dark:     #5EA018;
-      --green-tint:     #F0FAE6;
+      --purple-deep:    #2A1240;
+      --purple-main:    #5C3370;
+      --purple-mid:     #7A4E8E;
+      --purple-light:   #9A6CAC;
+      --purple-tint:    #F2EBF7;
+      --green-lime:     #3C7BBF;
+      --green-dark:     #2D6099;
+      --green-tint:     #EAF1FB;
       --white:          #FFFFFF;
-      --grey-50:        #F7F7F9;
-      --grey-100:       #EFEFF3;
-      --grey-200:       #DCDCE5;
-      --grey-400:       #9898AA;
-      --grey-700:       #3E3E52;
-      --grey-900:       #1A1A2E;
+      --grey-50:        #F9F5FC;
+      --grey-100:       #F0F0F0;
+      --grey-200:       #D4D4D4;
+      --grey-400:       #777777;
+      --grey-700:       #4A4A4A;
+      --grey-900:       #2A1240;
 
       --font-display: 'Playfair Display', Georgia, serif;
       --font-body:    'DM Sans', system-ui, sans-serif;
@@ -39,8 +39,8 @@
       --radius-lg:  20px;
       --radius-xl:  32px;
 
-      --shadow-card: 0 4px 24px rgba(74,0,122,.10), 0 1px 4px rgba(74,0,122,.06);
-      --shadow-glow: 0 0 0 4px rgba(120,200,34,.25);
+      --shadow-card: 0 4px 24px rgba(42,18,64,.12), 0 1px 4px rgba(42,18,64,.08);
+      --shadow-glow: 0 0 0 4px rgba(60,123,191,.25);
     }
 
     /* =========================================
@@ -164,7 +164,7 @@
       letter-spacing: .1em;
       text-transform: uppercase;
       color: var(--green-lime);
-      border: 1.5px solid rgba(120,200,34,.4);
+      border: 1.5px solid rgba(60,123,191,.4);
       border-radius: 100px;
       padding: 5px 12px;
       white-space: nowrap;
@@ -187,7 +187,7 @@
       inset: 0;
       background-image:
         radial-gradient(circle at 15% 20%, rgba(255,255,255,.04) 0%, transparent 50%),
-        radial-gradient(circle at 85% 80%, rgba(120,200,34,.08) 0%, transparent 50%);
+        radial-gradient(circle at 85% 80%, rgba(60,123,191,.08) 0%, transparent 50%);
       pointer-events: none;
     }
     .hero-pattern {
@@ -224,7 +224,7 @@
       position: absolute;
       inset: -12px;
       border-radius: 50%;
-      background: rgba(120,200,34,.35);
+      background: rgba(60,123,191,.35);
       animation: pulse-ring 2s ease-out infinite;
     }
     .check-circle {
@@ -242,7 +242,7 @@
       animation: drawCircle 1s .3s ease forwards;
     }
     .check-circle .icon-bg {
-      fill: rgba(120,200,34,.15);
+      fill: rgba(60,123,191,.15);
     }
     .check-circle polyline {
       fill: none;
@@ -256,8 +256,8 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: rgba(120,200,34,.15);
-      border: 1px solid rgba(120,200,34,.4);
+      background: rgba(60,123,191,.15);
+      border: 1px solid rgba(60,123,191,.4);
       border-radius: 100px;
       padding: 6px 16px;
       font-size: .72rem;
@@ -273,7 +273,7 @@
       height: 7px;
       border-radius: 50%;
       background: var(--green-lime);
-      box-shadow: 0 0 0 3px rgba(120,200,34,.3);
+      box-shadow: 0 0 0 3px rgba(60,123,191,.3);
       animation: pulse-ring 1.5s ease-out infinite;
       animation-delay: .5s;
       flex-shrink: 0;
@@ -400,7 +400,7 @@
       font-weight: 600;
       padding: 5px 14px;
       border-radius: 100px;
-      border: 1px solid rgba(74,0,122,.12);
+      border: 1px solid rgba(92,51,112,.12);
       letter-spacing: .02em;
     }
 
@@ -409,7 +409,7 @@
       align-items: center;
       gap: 14px;
       background: var(--green-tint);
-      border: 1.5px solid rgba(120,200,34,.35);
+      border: 1.5px solid rgba(60,123,191,.35);
       border-radius: var(--radius-md);
       padding: 16px 20px;
       margin-top: 28px;
@@ -443,7 +443,7 @@
       padding: 4px 12px;
       background: var(--green-tint);
       border-radius: 100px;
-      border: 1px solid rgba(120,200,34,.3);
+      border: 1px solid rgba(60,123,191,.3);
     }
     .section-title {
       font-family: var(--font-display);
@@ -478,7 +478,7 @@
     }
     .standard-card:hover {
       box-shadow: var(--shadow-card);
-      border-color: rgba(74,0,122,.2);
+      border-color: rgba(92,51,112,.2);
     }
     .standard-card-num {
       font-family: var(--font-display);
@@ -597,133 +597,6 @@
     }
     .timeline-step-body { font-size: .84rem; color: var(--grey-700); line-height: 1.6; }
 
-    /* =========================================
-       CTA
-    ========================================= */
-    .cta-section {
-      background: linear-gradient(135deg, var(--purple-deep) 0%, var(--purple-mid) 100%);
-      position: relative;
-      overflow: hidden;
-      text-align: center;
-    }
-    .cta-section::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 60% 60% at 80% 20%, rgba(120,200,34,.12), transparent),
-        radial-gradient(ellipse 40% 40% at 10% 80%, rgba(255,255,255,.05), transparent);
-      pointer-events: none;
-    }
-    .cta-content { position: relative; z-index: 2; }
-    .cta-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.6rem, 4.5vw, 2.6rem);
-      font-weight: 700;
-      color: var(--white);
-      letter-spacing: -.03em;
-      line-height: 1.2;
-      margin-bottom: 16px;
-    }
-    .cta-title em { font-style: italic; color: var(--green-lime); }
-    .cta-body {
-      font-size: clamp(.88rem, 2vw, 1rem);
-      color: rgba(255,255,255,.75);
-      max-width: 500px;
-      margin-inline: auto;
-      margin-bottom: 36px;
-      line-height: 1.7;
-    }
-    .btn-primary {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: var(--green-lime);
-      color: var(--purple-deep);
-      font-family: var(--font-body);
-      font-size: .95rem;
-      font-weight: 700;
-      letter-spacing: .01em;
-      padding: 16px 32px;
-      border-radius: var(--radius-xl);
-      border: none;
-      cursor: pointer;
-      transition: background .2s, transform .2s, box-shadow .2s;
-      text-decoration: none;
-    }
-    .btn-primary:hover {
-      background: #8AD630;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 28px rgba(120,200,34,.4);
-    }
-    .btn-primary:active { transform: translateY(0); }
-    .btn-primary svg { width: 18px; height: 18px; flex-shrink: 0; }
-
-    .btn-ghost {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: transparent;
-      color: rgba(255,255,255,.8);
-      font-size: .88rem;
-      font-weight: 500;
-      padding: 12px 24px;
-      border-radius: var(--radius-xl);
-      border: 1.5px solid rgba(255,255,255,.25);
-      cursor: pointer;
-      transition: all .2s;
-      text-decoration: none;
-      margin-top: 14px;
-    }
-    .btn-ghost:hover {
-      border-color: rgba(255,255,255,.6);
-      color: var(--white);
-      background: rgba(255,255,255,.07);
-    }
-
-    .cta-buttons { display: flex; flex-direction: column; align-items: center; gap: 4px; }
-    @media (min-width: 480px) {
-      .cta-buttons { flex-direction: row; justify-content: center; }
-    }
-
-    .trust-logos {
-      margin-top: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 24px;
-    }
-    .trust-logos-label {
-      font-size: .68rem;
-      font-weight: 600;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,.4);
-      width: 100%;
-      text-align: center;
-      margin-bottom: 4px;
-    }
-    .trust-stat {
-      text-align: center;
-    }
-    .trust-stat-num {
-      font-family: var(--font-display);
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: var(--green-lime);
-    }
-    .trust-stat-label {
-      font-size: .7rem;
-      color: rgba(255,255,255,.5);
-      letter-spacing: .06em;
-      text-transform: uppercase;
-    }
-    .trust-divider {
-      width: 1px;
-      height: 36px;
-      background: rgba(255,255,255,.15);
-    }
 
     /* =========================================
        FOOTER
@@ -803,7 +676,7 @@
       flex-wrap: wrap;
     }
     .security-strip-text svg { opacity: .5; flex-shrink: 0; }
-    .security-strip-text span { color: rgba(120,200,34,.7); }
+    .security-strip-text span { color: rgba(60,123,191,.7); }
 
     /* =========================================
        UTILITIES
@@ -828,11 +701,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo-block">
-        <img
-          src="logo.jpg"
-          alt="Eki — Educación con Equidad"
-          style="height: 40px; width: auto; display: block;"
-        />
+        <div class="logo-text">eki</div>
       </div>
       <div class="header-badge">Portal de Verificación Oficial</div>
     </div>
@@ -858,7 +727,7 @@
       <p class="hero-subtitle anim-fadeup-d2">
         Este documento certifica que <strong>[Nombre del Estudiante]</strong> ha completado
         con éxito el programa de formación <strong>[Nombre del Curso]</strong>,
-        avalado oficialmente por Eki — Educación con Equidad.
+        avalado oficialmente por eki — Educación con Equidad.
       </p>
 
       <div class="hero-verified-bar anim-fadeup-d3">
@@ -866,88 +735,9 @@
           <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
           <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
         </svg>
-        Verificado el dia de hoy &nbsp;|&nbsp; Certificado activo en la base de datos de Eki &nbsp;|&nbsp; ID confirmado
+        Verificado el dia de hoy &nbsp;|&nbsp; Certificado activo en la base de datos de eki &nbsp;|&nbsp; ID confirmado
       </div>
 
-    </div>
-  </section>
-
-  <!-- =================== DETALLES DEL CERTIFICADO =================== -->
-  <section class="section details-section">
-    <div class="container">
-
-      <div class="anim-fadeup">
-        <span class="section-eyebrow">Información del certificado</span>
-        <h2 class="section-title">Datos Oficiales del<br/> <em>Documento Emitido</em></h2>
-        <p class="section-lead">
-          A continuación se presentan los datos registrados en la base de datos institucional de Eki,
-          asociados de manera única a este certificado. Cualquier discrepancia con el documento físico
-          debe ser reportada a nuestro equipo de soporte.
-        </p>
-      </div>
-
-      <div class="card-main anim-fadeup-d1">
-        <div class="card-header-strip">
-          <span class="card-header-strip-title">Certificado de Finalización de Programa</span>
-          <span class="cert-id-badge">#EKI-2024-9876</span>
-        </div>
-        <div class="card-body">
-
-          <div class="details-grid">
-            <div class="detail-item">
-              <div class="detail-label">Nombre del participante</div>
-              <div class="detail-value accent">[Nombre del Estudiante]</div>
-            </div>
-            <div class="detail-item">
-              <div class="detail-label">Programa o curso</div>
-              <div class="detail-value">[Nombre del Curso]</div>
-            </div>
-            <div class="detail-item">
-              <div class="detail-label">Fecha de emisión</div>
-              <div class="detail-value">01 de junio de 2024</div>
-            </div>
-            <div class="detail-item">
-              <div class="detail-label">Fecha de finalización</div>
-              <div class="detail-value">28 de mayo de 2024</div>
-            </div>
-            <div class="detail-item">
-              <div class="detail-label">Intensidad horaria</div>
-              <div class="detail-value">40 horas académicas</div>
-            </div>
-            <div class="detail-item">
-              <div class="detail-label">Estado del certificado</div>
-              <div class="detail-value" style="color:var(--green-dark); font-weight:700;">
-                Activo y Vigente
-              </div>
-            </div>
-          </div>
-
-          <hr class="divider" />
-
-          <div class="detail-label" style="margin-bottom:12px;">Competencias certificadas</div>
-          <ul class="competencies-list">
-            <li>Pensamiento estratégico</li>
-            <li>Liderazgo organizacional</li>
-            <li>Comunicación efectiva</li>
-            <li>Gestión del cambio</li>
-            <li>Trabajo en equipo</li>
-            <li>Resolución de problemas</li>
-          </ul>
-
-          <div class="verification-stamp">
-            <div class="stamp-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple-deep)" stroke-width="2.5" stroke-linecap="round">
-                <polyline points="20 6 9 17 4 12"/>
-              </svg>
-            </div>
-            <div class="stamp-text">
-              <strong>Registro verificado por Eki</strong> — Este certificado fue emitido de forma oficial y se
-              encuentra activo en nuestros registros institucionales. Hash de validación: <code style="font-size:.75rem; letter-spacing:.03em;">a3f9b2c1d...e8702</code>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </div>
   </section>
 
@@ -958,10 +748,10 @@
       <div class="text-center anim-fadeup">
         <span class="section-eyebrow">Respaldo institucional</span>
         <h2 class="section-title">
-          Respaldado por Eki y los<br/><em>Más Altos Estándares</em><br/>de Educación Corporativa
+          Respaldado por eki y los<br/><em>Más Altos Estándares</em><br/>de Educación Corporativa
         </h2>
         <p class="section-lead" style="margin-inline: auto; text-align: center;">
-          En Eki, nuestra misión es clara: <strong>mejorar la productividad de las empresas
+          En eki, nuestra misión es clara: <strong>mejorar la productividad de las empresas
           a través de la formación de sus grupos de interés.</strong> Cada certificado que emitimos
           es el resultado de un proceso pedagógico riguroso, diseñado para generar transformación
           real y medible en las organizaciones.
@@ -1016,7 +806,7 @@
           Tres razones para <em>confiar</em><br/>en este certificado
         </h2>
         <p class="section-lead" style="margin-inline: auto; text-align: center;">
-          La autenticidad de este documento descansa sobre pilares estructurales que Eki ha
+          La autenticidad de este documento descansa sobre pilares estructurales que eki ha
           desarrollado a lo largo de años de trayectoria en la formación corporativa de alto impacto.
         </p>
       </div>
@@ -1072,7 +862,7 @@
           </div>
           <div class="pillar-title">Trazabilidad Tecnológica</div>
           <p class="pillar-body">
-            Cada certificado emitido por Eki queda registrado en una base de datos cifrada con
+            Cada certificado emitido por eki queda registrado en una base de datos cifrada con
             un identificador único e inmutable. Esta página que estás viendo confirma en tiempo
             real la autenticidad del documento, sin posibilidad de falsificación.
           </p>
@@ -1136,7 +926,7 @@
           <div class="timeline-step-title">Aprobación y emisión del certificado</div>
           <p class="timeline-step-body">
             Una vez verificado el cumplimiento de todos los requisitos, el equipo académico
-            de Eki aprueba la emisión del certificado, el cual queda registrado de manera
+            de eki aprueba la emisión del certificado, el cual queda registrado de manera
             permanente en los sistemas institucionales.
           </p>
         </div>
@@ -1145,7 +935,7 @@
           <div class="timeline-dot"></div>
           <div class="timeline-step-title">Registro seguro y verificacion en linea</div>
           <p class="timeline-step-body">
-            El certificado se integra a la base de datos de validacion de Eki, permitiendo
+            El certificado se integra a la base de datos de validacion de eki, permitiendo
             que cualquier empleador o entidad pueda confirmar su autenticidad
             de forma instantanea a traves de este portal oficial.
           </p>
@@ -1156,75 +946,12 @@
     </div>
   </section>
 
-  <!-- =================== CTA =================== -->
-  <section class="section cta-section">
-    <div class="container cta-content">
-
-      <div class="anim-fadeup">
-        <span class="section-eyebrow" style="background: rgba(120,200,34,.15); border-color: rgba(120,200,34,.4); color: var(--green-lime);">
-          Para empresas y organizaciones
-        </span>
-        <h2 class="cta-title">
-          Capacite a su equipo con<br/>la <em>certeza</em> de Eki
-        </h2>
-        <p class="cta-body">
-          Si usted representa una empresa u organización, lo invitamos a conocer nuestros
-          programas de formación corporativa diseñados para transformar el desempeño
-          de sus colaboradores y potenciar la productividad de su organización.
-        </p>
-      </div>
-
-      <div class="cta-buttons anim-fadeup-d1">
-        <a href="#" class="btn-primary">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-            <line x1="16" y1="2" x2="16" y2="6"/>
-            <line x1="8" y1="2" x2="8" y2="6"/>
-            <line x1="3" y1="10" x2="21" y2="10"/>
-          </svg>
-          Agenda una consulta gratuita
-        </a>
-        <a href="#" class="btn-ghost">
-          Conoce nuestros programas
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-            <line x1="5" y1="12" x2="19" y2="12"/>
-            <polyline points="12 5 19 12 12 19"/>
-          </svg>
-        </a>
-      </div>
-
-      <div class="trust-logos anim-fadeup-d2">
-        <p class="trust-logos-label">Eki en numeros</p>
-        <div class="trust-stat">
-          <div class="trust-stat-num">+1.200</div>
-          <div class="trust-stat-label">Profesionales certificados</div>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-stat">
-          <div class="trust-stat-num">+80</div>
-          <div class="trust-stat-label">Empresas aliadas</div>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-stat">
-          <div class="trust-stat-num">+40</div>
-          <div class="trust-stat-label">Programas activos</div>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-stat">
-          <div class="trust-stat-num">98%</div>
-          <div class="trust-stat-label">Satisfaccion de egresados</div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
   <!-- =================== FOOTER =================== -->
   <footer class="site-footer">
     <div class="container footer-inner">
 
       <div>
-        <div class="footer-logo-text">Eki</div>
+        <div class="footer-logo-text">eki</div>
         <p class="footer-tagline">
           Educación con Equidad<br/>
           Mejoramos la productividad de las empresas<br/>
@@ -1241,17 +968,9 @@
           <a href="#">Accesibilidad</a>
         </nav>
         <p class="footer-copy" style="margin-top:14px;">
-          &copy; 2024 Eki — Educación con Equidad. Todos los derechos reservados.<br/>
+          &copy; 2024 eki — Educación con Equidad. Todos los derechos reservados.<br/>
           Portal de verificacion oficial de certificados.
         </p>
-      </div>
-
-      <div>
-        <div class="footer-contact">
-          ¿Preguntas sobre este certificado?<br/>
-          <a href="mailto:soporte@eki.edu.co">soporte@eki.edu.co</a><br/>
-          <a href="tel:+573001234567">+57 300 123 4567</a>
-        </div>
       </div>
 
     </div>
@@ -1266,9 +985,9 @@
           <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
         </svg>
         Conexion segura HTTPS &nbsp;|&nbsp;
-        <span>Eki Portal de Verificacion v2.4</span>
+        <span>eki Portal de Verificacion v2.4</span>
         &nbsp;|&nbsp; Este sitio no almacena cookies de rastreo &nbsp;|&nbsp;
-        Protegido bajo politicas de privacidad de Eki
+        Protegido bajo politicas de privacidad de eki
       </p>
     </div>
   </div>
